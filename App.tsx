@@ -1,18 +1,14 @@
-import { StyleSheet, Text, View } from 'react-native';
+import {StatusBar, View} from 'react-native';
+import { TailwindProvider } from "tailwindcss-react-native";
+import QuoteScreen from "./src/views/QuoteScreen";
+import React from "react";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-    </View>
+      <TailwindProvider>
+        <StatusBar backgroundColor='#23017e'/>
+          {/*<View style={{ backgroundColor: '#23017e' }} />*/}
+        <QuoteScreen/>
+      </TailwindProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

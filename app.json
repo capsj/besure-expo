@@ -1,9 +1,7 @@
 {
-  "name": "izapmobile",
-  "displayName": "izapmobile",
   "expo": {
-    "name": "izapmobile",
-    "slug": "izapmobile",
+    "name": "BeSure",
+    "slug": "BeSure",
     "version": "1.0.0",
     "platforms": [
       "ios",
@@ -16,6 +14,11 @@
     "packagerOpts": {
       "config": "metro.config.js",
       "sourceExts": ["js", "jsx", "svg", "ts", "tsx"]
+    },
+    "icon": "./src/assets/logo-1-crop.png",
+    "splash": {
+      "backgroundColor": "#23017e",
+      "image": "./src/assets/logo-1.png"
     }
   }
 }
