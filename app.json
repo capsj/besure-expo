@@ -1,0 +1,21 @@
+{
+  "name": "izapmobile",
+  "displayName": "izapmobile",
+  "expo": {
+    "name": "izapmobile",
+    "slug": "izapmobile",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": ["js", "jsx", "svg", "ts", "tsx"]
+    }
+  }
+}
