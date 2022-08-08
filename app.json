@@ -13,12 +13,21 @@
     ],
     "packagerOpts": {
       "config": "metro.config.js",
-      "sourceExts": ["js", "jsx", "svg", "ts", "tsx"]
+      "sourceExts": [
+        "js",
+        "jsx",
+        "svg",
+        "ts",
+        "tsx"
+      ]
     },
     "icon": "./src/assets/logo-1-crop.png",
     "splash": {
       "backgroundColor": "#23017e",
       "image": "./src/assets/logo-1.png"
+    },
+    "android": {
+      "package": "com.capsj27.BeSure"
     }
   }
 }
